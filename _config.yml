@@ -23,7 +23,7 @@ title: Bogyung's blog # the main title
 tagline:  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  AI, deep learning, audio, speech, recognition
+  AI, deep learning, audio, speech, recognition, computer vision
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://bogyungpark.github.io"
