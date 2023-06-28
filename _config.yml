@@ -41,7 +41,7 @@ social:
   email: pym256@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - bogyungpark # change to your github homepage
+    - https://github.com/bogyungpark # change to your github homepage
     - https://www.linkedin.com/in/bogyungpark/
 
 google_site_verification: # fill in to your verification string
