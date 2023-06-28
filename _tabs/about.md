@@ -12,10 +12,11 @@ This blog is a platform to share my research and learning experiences, engage in
 
 If you would like to learn more about me or are interested in my blog, please feel free to contact me via the email below. I enjoy receiving questions and feedback as it helps me provide better content.
 
+Thank you for visiting my blog!
+
 Email: pym256@naver.com 
 
 Github: https://github.com/bogyungpark 
 
 Linkedin: https://www.linkedin.com/in/bogyungpark/
 
-Thank you for visiting my blog!
