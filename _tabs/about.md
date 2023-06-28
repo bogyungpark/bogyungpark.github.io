@@ -15,8 +15,6 @@ If you would like to learn more about me or are interested in my blog, please fe
 Thank you for visiting my blog!
 
 Email: pym256@naver.com 
-
 Github: https://github.com/bogyungpark 
-
 Linkedin: https://www.linkedin.com/in/bogyungpark/
 

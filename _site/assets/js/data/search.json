@@ -1,4 +1,21 @@
 [
   
+  {
+    "title": "fitst test post",
+    "url": "/posts/fisrt-test-post/",
+    "categories": "first, test",
+    "tags": "test",
+    "date": "2023-06-28 03:07:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons...",
+    "content": "The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.Generate the faviconPrepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image to upload your image file.In the next step, the webpage will show all usage scenarios. You can keep the default options, scroll to the bottom of the page, and click the button Generate your Favicons and HTML code to generate the favicon.Download &amp; ReplaceDownload the generated package, unzip and delete the following two from the extracted files:  browserconfig.xml  site.webmanifestAnd then copy the remaining image files (.PNG and .ICO) to cover the original files in the directory assets/img/favicons/ of your Jekyll site. If your Jekyll site doesn’t have this directory yet, just create one.The following table will help you understand the changes to the favicon files:            File(s)      From Online Tool      From Chirpy                  *.PNG      ✓      ✗              *.ICO      ✓      ✗        ✓ means keep, ✗ means delete.The next time you build the site, the favicon will be replaced with a customized edition."
+  }
+  
 ]
 
