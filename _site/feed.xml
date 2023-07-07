@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Bogyung's blog</title>
   <subtitle>AI, deep learning, audio, speech, recognition, computer vision</subtitle>
-  <updated>2023-06-28T14:26:38+09:00</updated>
+  <updated>2023-07-07T15:58:37+09:00</updated>
   <author>
     <name>Bogyung Park</name>
     <uri>http://localhost:4000/</uri>
@@ -20,23 +20,23 @@
 
   
   <entry>
-    <title>fitst test post</title>
-    <link href="http://localhost:4000/posts/fisrt-test-post/" rel="alternate" type="text/html" title="fitst test post" />
-    <published>2023-06-28T03:07:00+09:00</published>
+    <title>Ubuntu GPU initial Settings</title>
+    <link href="http://localhost:4000/posts/fisrt-test-post/" rel="alternate" type="text/html" title="Ubuntu GPU initial Settings" />
+    <published>2023-07-07T01:00:00+09:00</published>
   
-    <updated>2023-06-28T03:07:00+09:00</updated>
+    <updated>2023-07-07T01:00:00+09:00</updated>
   
     <id>http://localhost:4000/posts/fisrt-test-post/</id>
     <content src="http://localhost:4000/posts/fisrt-test-post/" />
     <author>
-      <name>bogyung</name>
+      <name>Bogyung Park</name>
     </author>
 
   
     
-    <category term="first" />
+    <category term="Ubuntu" />
     
-    <category term="test" />
+    <category term="GPU initial Settings" />
     
   
 
@@ -48,11 +48,38 @@
 
 
 
-      The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
+      Ubuntu initial Settings
 
-Generate the favicon
+Driver installation
 
-Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...
+  그래픽카드 정보 및 드라이버 확인하기
+    ~$ ubuntu-drivers devices
+    
+    
+  
+  드라이버 설치
+    
+      권장 드라이버 자동으로 설치
+          ~$ sudo ubuntu-drivers autoinstall 
+  ~$ sudo reboot
+        
+      
+      원하는 버전 수동으로 설치
+         ~$ sudo apt install nvidia-driver-470 
+ ~$ sudo reboot
+        
+      
+    
+  
+
+
+Monitoring GPU usage.
+    ~$ nvidia-smi
+
+
+
+  
+    Driver v...
     </summary>
   
 
