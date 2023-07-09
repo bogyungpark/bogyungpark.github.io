@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Bogyung's blog</title>
   <subtitle>AI, deep learning, audio, speech, recognition, computer vision</subtitle>
-  <updated>2023-07-09T16:51:34+09:00</updated>
+  <updated>2023-07-09T17:09:02+09:00</updated>
   <author>
     <name>Bogyung Park</name>
     <uri>http://localhost:4000/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title></title>
     <link href="http://localhost:4000/posts/2023-07-09-jekyll-theme/" rel="alternate" type="text/html" title="" />
-    <published>2023-07-09T16:51:34+09:00</published>
+    <published>2023-07-09T17:09:02+09:00</published>
   
-    <updated>2023-07-09T16:51:34+09:00</updated>
+    <updated>2023-07-09T17:09:02+09:00</updated>
   
     <id>http://localhost:4000/posts/2023-07-09-jekyll-theme/</id>
     <content src="http://localhost:4000/posts/2023-07-09-jekyll-theme/" />
@@ -63,9 +63,9 @@ jekyll theme 고르기
   <entry>
     <title></title>
     <link href="http://localhost:4000/posts/2023-07-07-GPU-setting/" rel="alternate" type="text/html" title="" />
-    <published>2023-07-09T16:51:34+09:00</published>
+    <published>2023-07-09T17:09:02+09:00</published>
   
-    <updated>2023-07-09T16:51:34+09:00</updated>
+    <updated>2023-07-09T17:09:02+09:00</updated>
   
     <id>http://localhost:4000/posts/2023-07-07-GPU-setting/</id>
     <content src="http://localhost:4000/posts/2023-07-07-GPU-setting/" />

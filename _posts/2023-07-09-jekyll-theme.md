@@ -107,3 +107,35 @@ _post 디렉토리에 작성한 파일을 넣습니다.
 년 4자리, 월 2자리, 일 2자리와 제목을 넣어줍니다.
 확장자는 .md 또는 .markdown으로 합니다.
 중간에 공백을 넣지 않습니다. 공백이 필요하면 -로 바꿉니다.
+
+# 배포하기
+우선 .gitignore 파일을 열어서 아래 내용을 한줄 추가 합니다. Gemfile 파일이 git에 올라가면 빌드가 에러를 내는 경우가 많습니다. 그래서 올라가지 않도록 막는 것입니다.
+```
+Gemfile.lock
+```
+아래 git 명령어를 사용하여 배포합니다.
+```
+$ git add .
+$ git commit -m "first commit"
+$ git push
+```
+
+push를 하게되면 github은 자동으로 블로그 페이지를 만들어 줍니다. 이때 저는 에러가 나서 한참 애먹었습니다.
+
+error: pages build and deployment
+![image](/image/second_post/5.png)
+
+Error:  The jekyll-theme-chirpy theme could not be found.
+![image](/image/second_post/7.png)
+
+저와 같은 오류가 난다면 다음과 같이 해결하면 됩니다.
+
+![image](/image/second_post/6.png)
+
+# 마무리
+배포가 완료되면 블로그 세팅이 완료된 것입니다.
+bogyungpark.github.io 와 같은 본인의 주소를 들어가서 확인해봅니다.
+
+이상으로 포스팅 마치겠습니다. 
+
+감사합니다.
