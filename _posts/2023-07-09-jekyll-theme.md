@@ -1,5 +1,5 @@
 ---
-title: git Chirpy Jekyll Theme 적용하여 GitBlog 만들기
+title: Git Chirpy Jekyll Theme 적용하여 GitBlog 만들기
 by: bogyung park
 date: 2023-07-07 00:00:00 +0800
 categories: [git, jekyll theme]
