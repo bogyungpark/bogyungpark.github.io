@@ -29,15 +29,23 @@ github의 기본 도메인을 사용할 때는 <github 아이디>.github.io 형�
 ![image](/image/second_post/2.png)
 
 # 클론 받기
-먼저 cd 주소를 통해 다운받기 원하는 폴더에 진입합니다. 그 후 아래 명령을 통해 소스를 받습니다. 
+먼저 터미널에서 다운받기 원하는 폴더에 진입합니다. 그 후 명령을 통해 소스를 받습니다. 
+경로의 경우는 아래 사진에서 복사하기를 누르면 경로가 받아집니다.
+![image](/image/second_post/8.png)
+
 ```
+$ cd [다운받기 원하는 경로]
 $ git clone https://github.com/[username]/[username].github.io.git
 ```
 
 # chirpy 초기화 하기
 아래 명령을 사용하여 chirpy를 초기화 합니다.
 ```
+cd [username].github.io.git
+
 tools/init.sh
+위 명령어가 없다고 나오면
+tools/init
 ```
 이때, [INFO] Initialization successful! 이런 명령어가 나오면 성공입니다.
 위의 명령어가 성공하면 다음 파일들이 삭제됩니다.
@@ -61,7 +69,7 @@ bundle
 bundle exec jekyll serve
 ```
 고 http://127.0.0.1:4000 으로 들어가본다. 기본 사이트가 잘 나온다면 우선 성공입니다.
-
+![image](/image/second_post/9.png)
 ![image](/image/second_post/3.png)
 
 # chirpy 환경 둘러보기
