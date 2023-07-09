@@ -1,14 +1,14 @@
 ---
 title: Git Chirpy Jekyll Theme 적용하여 GitBlog 만들기
 by: bogyung park
-date: 2023-07-07 00:00:00 +0800
+date: 2023-07-09 00:00:00 +0800
 categories: [git, jekyll theme]
 tags: [git]
 ---
 
 # git blog initial setting
 이번 포스팅에서는 GitBlog 테마의 초기 설정에 관해 알려드리고자 합니다. GitBlog는 Git 저장소를 기반으로 동작하는 간단하고 가벼운 정적 블로그 플랫폼입니다.
-깃블로그의 장점이 커스터마이징을 할 수 있다는 것이지만, 깃블로그 테마를 설정하는 과정에서 어려움이 있을 수 있는 부분을 중점으로 포스팅 하였습니다.
+깃블로그의 장점이 커스터마이징을 할 수 있다는 것이지만, 깃블로그 테마를 설정하는 과정에서 어려움이 있을 수 있는 부분을 중점으로 작성하였습니다.
 mac os 기준으로 포스팅하였습니다.
 
 우선 jekyll의 테마를 사용할 것이기 때문에 이에 관련된 것들을 설치해야합니다. 
@@ -41,7 +41,7 @@ $ git clone https://github.com/[username]/[username].github.io.git
 # chirpy 초기화 하기
 아래 명령을 사용하여 chirpy를 초기화 합니다.
 ```
-cd [username].github.io.git
+cd [username].github.io
 
 tools/init.sh
 위 명령어가 없다고 나오면
@@ -62,13 +62,17 @@ tools/init
 ```
 bundle
 ```
+이때, gem파일이 없다는 에러가 발생할 수 있습니다.
+> Error: could not locate gemfile
+
+
 
 # 로컬에서 실행해 보기
-원격으로 올리기 전에 실시간으로 먼저 보고 싶다면 아래 명령어를 실행한다.
+원격으로 올리기 전에 실시간으로 먼저 보고 싶다면 아래 명령어를 실행합니다.
 ```
 bundle exec jekyll serve
 ```
-고 http://127.0.0.1:4000 으로 들어가본다. 기본 사이트가 잘 나온다면 우선 성공입니다.
+고 http://127.0.0.1:4000 으로 들어가봅니다. 기본 사이트가 잘 나온다면 우선 성공입니다.
 ![image](/image/second_post/9.png)
 ![image](/image/second_post/3.png)
 
