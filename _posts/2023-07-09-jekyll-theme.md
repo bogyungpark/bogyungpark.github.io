@@ -64,8 +64,11 @@ bundle
 ```
 이때, gem파일이 없다는 에러가 발생할 수 있습니다.
 > Error: could not locate gemfile
-
-
+```
+$ bundle init
+$ bundle add jekyll
+```
+위의 코드를 입력합니다.
 
 # 로컬에서 실행해 보기
 원격으로 올리기 전에 실시간으로 먼저 보고 싶다면 아래 명령어를 실행합니다.
@@ -73,8 +76,8 @@ bundle
 bundle exec jekyll serve
 ```
 고 http://127.0.0.1:4000 으로 들어가봅니다. 기본 사이트가 잘 나온다면 우선 성공입니다.
-![image](/image/second_post/9.png)
 ![image](/image/second_post/3.png)
+![image](/image/second_post/9.png)
 
 # chirpy 환경 둘러보기
 - _config.yml : 블로그의 기본 설정 파일입니다.
