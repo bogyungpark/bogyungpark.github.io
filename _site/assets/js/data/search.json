@@ -1,11 +1,11 @@
 [
   
   {
-    "title": null,
-    "url": "/posts/2023-07-09-jekyll-theme/",
-    "categories": "",
-    "tags": "",
-    "date": "2023-07-09 17:09:02 +0900",
+    "title": "Git Chirpy Jekyll Theme 적용하여 GitBlog 만들기",
+    "url": "/posts/jekyll-theme/",
+    "categories": "git, jekyll theme",
+    "tags": "git",
+    "date": "2023-07-07 01:00:00 +0900",
     
 
 
@@ -18,11 +18,11 @@
   },
   
   {
-    "title": null,
-    "url": "/posts/2023-07-07-GPU-setting/",
-    "categories": "",
-    "tags": "",
-    "date": "2023-07-09 17:09:02 +0900",
+    "title": "Ubuntu GPU initial Settings",
+    "url": "/posts/GPU-setting/",
+    "categories": "Ubuntu, GPU initial Settings",
+    "tags": "GPU initial Settings",
+    "date": "2023-07-07 01:00:00 +0900",
     
 
 

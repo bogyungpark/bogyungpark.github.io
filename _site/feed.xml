@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Bogyung's blog</title>
   <subtitle>AI, deep learning, audio, speech, recognition, computer vision</subtitle>
-  <updated>2023-07-09T17:09:02+09:00</updated>
+  <updated>2023-07-09T17:25:11+09:00</updated>
   <author>
     <name>Bogyung Park</name>
     <uri>http://localhost:4000/</uri>
@@ -20,19 +20,23 @@
 
   
   <entry>
-    <title></title>
-    <link href="http://localhost:4000/posts/2023-07-09-jekyll-theme/" rel="alternate" type="text/html" title="" />
-    <published>2023-07-09T17:09:02+09:00</published>
+    <title>Git Chirpy Jekyll Theme 적용하여 GitBlog 만들기</title>
+    <link href="http://localhost:4000/posts/jekyll-theme/" rel="alternate" type="text/html" title="Git Chirpy Jekyll Theme 적용하여 GitBlog 만들기" />
+    <published>2023-07-07T01:00:00+09:00</published>
   
-    <updated>2023-07-09T17:09:02+09:00</updated>
+    <updated>2023-07-09T17:19:11+09:00</updated>
   
-    <id>http://localhost:4000/posts/2023-07-09-jekyll-theme/</id>
-    <content src="http://localhost:4000/posts/2023-07-09-jekyll-theme/" />
+    <id>http://localhost:4000/posts/jekyll-theme/</id>
+    <content src="http://localhost:4000/posts/jekyll-theme/" />
     <author>
       <name>Bogyung Park</name>
     </author>
 
   
+    
+    <category term="git" />
+    
+    <category term="jekyll theme" />
     
   
 
@@ -61,19 +65,23 @@ jekyll theme 고르기
 
   
   <entry>
-    <title></title>
-    <link href="http://localhost:4000/posts/2023-07-07-GPU-setting/" rel="alternate" type="text/html" title="" />
-    <published>2023-07-09T17:09:02+09:00</published>
+    <title>Ubuntu GPU initial Settings</title>
+    <link href="http://localhost:4000/posts/GPU-setting/" rel="alternate" type="text/html" title="Ubuntu GPU initial Settings" />
+    <published>2023-07-07T01:00:00+09:00</published>
   
-    <updated>2023-07-09T17:09:02+09:00</updated>
+    <updated>2023-07-09T17:11:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/2023-07-07-GPU-setting/</id>
-    <content src="http://localhost:4000/posts/2023-07-07-GPU-setting/" />
+    <id>http://localhost:4000/posts/GPU-setting/</id>
+    <content src="http://localhost:4000/posts/GPU-setting/" />
     <author>
       <name>Bogyung Park</name>
     </author>
 
   
+    
+    <category term="Ubuntu" />
+    
+    <category term="GPU initial Settings" />
     
   
 
