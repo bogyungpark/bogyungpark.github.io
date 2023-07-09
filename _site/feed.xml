@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Bogyung's blog</title>
   <subtitle>AI, deep learning, audio, speech, recognition, computer vision</subtitle>
-  <updated>2023-07-07T15:58:37+09:00</updated>
+  <updated>2023-07-09T16:51:34+09:00</updated>
   <author>
     <name>Bogyung Park</name>
     <uri>http://localhost:4000/</uri>
@@ -20,23 +20,60 @@
 
   
   <entry>
-    <title>Ubuntu GPU initial Settings</title>
-    <link href="http://localhost:4000/posts/fisrt-test-post/" rel="alternate" type="text/html" title="Ubuntu GPU initial Settings" />
-    <published>2023-07-07T01:00:00+09:00</published>
+    <title></title>
+    <link href="http://localhost:4000/posts/2023-07-09-jekyll-theme/" rel="alternate" type="text/html" title="" />
+    <published>2023-07-09T16:51:34+09:00</published>
   
-    <updated>2023-07-07T01:00:00+09:00</updated>
+    <updated>2023-07-09T16:51:34+09:00</updated>
   
-    <id>http://localhost:4000/posts/fisrt-test-post/</id>
-    <content src="http://localhost:4000/posts/fisrt-test-post/" />
+    <id>http://localhost:4000/posts/2023-07-09-jekyll-theme/</id>
+    <content src="http://localhost:4000/posts/2023-07-09-jekyll-theme/" />
     <author>
       <name>Bogyung Park</name>
     </author>
 
   
     
-    <category term="Ubuntu" />
-    
-    <category term="GPU initial Settings" />
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      git blog initial setting
+이번 포스팅에서는 GitBlog 테마의 초기 설정에 관해 알려드리고자 합니다. GitBlog는 Git 저장소를 기반으로 동작하는 간단하고 가벼운 정적 블로그 플랫폼입니다.
+깃블로그의 장점이 커스터마이징을 할 수 있다는 것이지만, 깃블로그 테마를 설정하는 과정에서 어려움이 있을 수 있는 부분을 중점으로 포스팅 하였습니다.
+mac os 기준으로 포스팅하였습니다.
+
+우선 jekyll의 테마를 사용할 것이기 때문에 이에 관련된 것들을 설치해야합니다. 
+공식 Document가 설명이 워낙 잘나온지라 jekyll 설치를 참고하여 설치하시면 됩니다.
+
+jekyll theme 고르기
+여러 사이트가 있지만, 저는 jekyll theme 사이트에서 Chirpy theme를 선...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title></title>
+    <link href="http://localhost:4000/posts/2023-07-07-GPU-setting/" rel="alternate" type="text/html" title="" />
+    <published>2023-07-09T16:51:34+09:00</published>
+  
+    <updated>2023-07-09T16:51:34+09:00</updated>
+  
+    <id>http://localhost:4000/posts/2023-07-07-GPU-setting/</id>
+    <content src="http://localhost:4000/posts/2023-07-07-GPU-setting/" />
+    <author>
+      <name>Bogyung Park</name>
+    </author>
+
+  
     
   
 
@@ -53,20 +90,20 @@
 Driver installation
 
   그래픽카드 정보 및 드라이버 확인하기
-    ~$ ubuntu-drivers devices
+    $ ubuntu-drivers devices
     
     
   
   드라이버 설치
     
       권장 드라이버 자동으로 설치
-          ~$ sudo ubuntu-drivers autoinstall 
-  ~$ sudo reboot
+          $ sudo ubuntu-drivers autoinstall 
+  $ sudo reboot
         
       
       원하는 버전 수동으로 설치
-         ~$ sudo apt install nvidia-driver-470 
- ~$ sudo reboot
+         $ sudo apt install nvidia-driver-470 
+ $ sudo reboot
         
       
     
@@ -74,12 +111,12 @@ Driver installation
 
 
 Monitoring GPU usage.
-    ~$ nvidia-smi
+    $ nvidia-smi
 
 
 
   
-    Driver v...
+    Driver version...
     </summary>
   
 

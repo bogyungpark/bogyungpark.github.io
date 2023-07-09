@@ -1,5 +1,5 @@
 ---
-title: Ubuntu GPU initial Settings
+title: [Ubuntu]GPU initial Settings
 by: bogyung park
 date: 2023-07-07 00:00:00 +0800
 categories: [Ubuntu, GPU initial Settings]
@@ -11,24 +11,24 @@ tags: [GPU initial Settings]
 ## Driver installation
 1. 그래픽카드 정보 및 드라이버 확인하기
 ```
-~$ ubuntu-drivers devices
+$ ubuntu-drivers devices
 ```    
 ![image](/image/first_post/drivercheck.png)
 2. 드라이버 설치
     - 권장 드라이버 자동으로 설치
     ```
-	    ~$ sudo ubuntu-drivers autoinstall 
-	    ~$ sudo reboot
+	    $ sudo ubuntu-drivers autoinstall 
+	    $ sudo reboot
     ```
 	-  원하는 버전 수동으로 설치
     ```
-		~$ sudo apt install nvidia-driver-470 
-	    ~$ sudo reboot
+		$ sudo apt install nvidia-driver-470 
+	    $ sudo reboot
     ```
 
 ## Monitoring GPU usage.
 ```
-    ~$ nvidia-smi
+    $ nvidia-smi
 ``` 
 ![image](/image/first_post/usage.png)
 -  **Driver version**
@@ -116,19 +116,19 @@ The driver and toolkit must be installed for CUDA to function. If you have not i
 ![image](/image/first_post/install_2.png)
 
 ```
-~$ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
-~$ sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
-~$ wget https://developer.download.nvidia.com/compute/cuda/12.2.0/local_installers/cuda-repo-ubuntu2004-12-2-local_12.2.0-535.54.03-1_amd64.deb
-~$ sudo dpkg -i cuda-repo-ubuntu2004-12-2-local_12.2.0-535.54.03-1_amd64.deb
-~$ sudo cp /var/cuda-repo-ubuntu2004-12-2-local/cuda-*-keyring.gpg /usr/share/keyrings/
-~$ sudo apt-get update
-~$ sudo apt-get -y install cuda
+$ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+$ sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+$ wget https://developer.download.nvidia.com/compute/cuda/12.2.0/local_installers/cuda-repo-ubuntu2004-12-2-local_12.2.0-535.54.03-1_amd64.deb
+$ sudo dpkg -i cuda-repo-ubuntu2004-12-2-local_12.2.0-535.54.03-1_amd64.deb
+$ sudo cp /var/cuda-repo-ubuntu2004-12-2-local/cuda-*-keyring.gpg /usr/share/keyrings/
+$ sudo apt-get update
+$ sudo apt-get -y install cuda
 ```
 
 ```
-~$ sudo apt update
-~$ sudo apt install nvidia-cuda-toolkit
-~$ nvcc -V
+$ sudo apt update
+$ sudo apt install nvidia-cuda-toolkit
+$ nvcc -V
 ```
 ![image](/image/first_post/nvcc.png)
 
@@ -136,7 +136,7 @@ The driver and toolkit must be installed for CUDA to function. If you have not i
 [PyTorch Get start](https://pytorch.org/get-started/locally/)에 접속한다.
 ![image](/image/first_post/pytorch.png)
 ```
-~$ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+$ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
 ### Pytorch GPU 사용 가능 여부 확인

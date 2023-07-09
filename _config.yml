@@ -20,7 +20,7 @@ timezone: Asia/Seoul
 
 title: Bogyung's blog # the main title
 
-tagline:  # it will display as the sub-title
+tagline:  기록 노트
 
 description: >- # used by seo meta and the atom feed
   AI, deep learning, audio, speech, recognition, computer vision
