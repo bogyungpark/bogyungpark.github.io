@@ -1,5 +1,5 @@
 ---
-title: [Ubuntu]GPU initial Settings
+title: Ubuntu GPU initial Settings
 by: bogyung park
 date: 2023-07-07 00:00:00 +0800
 categories: [Ubuntu, GPU initial Settings]
