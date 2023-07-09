@@ -122,10 +122,10 @@ $ git push
 
 push를 하게되면 github은 자동으로 블로그 페이지를 만들어 줍니다. 이때 저는 에러가 나서 한참 애먹었습니다.
 
-error: pages build and deployment
+> error: pages build and deployment
 ![image](/image/second_post/5.png)
 
-Error:  The jekyll-theme-chirpy theme could not be found.
+> Error:  The jekyll-theme-chirpy theme could not be found.
 ![image](/image/second_post/7.png)
 
 저와 같은 오류가 난다면 다음과 같이 해결하면 됩니다.
